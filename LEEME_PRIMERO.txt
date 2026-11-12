@@ -1,0 +1,21 @@
+AUTOFIX PRO - PAGINA WEB
+
+COMO ABRIRLA
+1. Haz clic derecho en el ZIP y elige "Extraer todo".
+2. Entra a la carpeta AutoFixPro_PaginaWeb.
+3. Haz doble clic en  ABRIR_PAGINA.bat
+4. Espera. La primera vez tarda 1 o 2 minutos porque instala las librerias.
+   Despues se abre solo el navegador con la pagina.
+   Si no se abre, escribe en el navegador:  http://127.0.0.1:8000/app
+
+IMPORTANTE
+- No cierres la ventana negra mientras uses la pagina: esa ventana es la API.
+- Para terminar, cierra la ventana negra.
+- Si Windows pregunta si confias en el archivo, elige "Mas informacion" y luego "Ejecutar de todas formas".
+
+QUE TRAE
+Es el mismo proyecto del PIA (la API de AutoFix Pro) con la pagina web ya integrada:
+  app/static/index.html     la pagina web
+  app/main.py               ahora tiene la ruta /app
+  tests/test_frontend.py    prueba de la pagina
+  requirements-demo.txt     librerias (versiones recientes, funciona con Python 3.14)
